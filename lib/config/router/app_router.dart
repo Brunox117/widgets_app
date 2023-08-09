@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
 import 'package:widgets_app/presentation/screens/cards/card_screen.dart';
+import 'package:widgets_app/presentation/screens/progress/progress_screen.dart';
 
 import '../../presentation/screens/home/home_screen.dart';
 
@@ -22,6 +23,11 @@ final appRouter = GoRouter(
       path: '/cards',
       name: CardsScreen.name,
       builder:(context, state) => const CardsScreen(),  
+    ),
+    GoRoute(
+      path: '/progress',
+      name: ProgressScreen.name,
+      builder: (context, state ) => const ProgressScreen(),
     ),
   ],
 );
