@@ -23,7 +23,7 @@ final slides = <SlideInfo>[
 ];
 
 class AppTutorialScreen extends StatefulWidget {
-  static const name = 'tutorial_screen.';
+  static const name = 'tutorial_screen';
   const AppTutorialScreen({super.key});
 
   @override

@@ -8,14 +8,19 @@ environment:
 
 dependencies:
   animate_do: ^3.0.2
+  colornames: ^0.1.0
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.3.6
   go_router: ^10.0.0
+  riverpod_annotation: ^2.1.1
 
 dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
+  riverpod_generator: ^2.2.4
+  riverpod_lint: ^1.4.0
 
 flutter:
   uses-material-design: true

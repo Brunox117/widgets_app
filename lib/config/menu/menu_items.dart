@@ -15,6 +15,11 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+      title: 'Counter screen',
+      subtitle: 'Counter screen y riverpod',
+      link: '/counter_screen',
+      icon: Icons.add),
+  MenuItem(
       title: 'Botones',
       subtitle: 'Varios botones en flutter',
       link: '/buttons',
@@ -49,4 +54,16 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Pequeño tutorial introductorio',
       link: '/tutorial',
       icon: Icons.accessibility_rounded),
+  MenuItem(
+      title: 'Infinite scroll y pull',
+      subtitle: 'Listas infinitas y pull to refresh',
+      link: '/infinite',
+      icon: Icons.list_alt_rounded),
+  MenuItem(
+      title: 'Cambiar tema',
+      subtitle: 'Cambiar tema de la aplicación',
+      link: '/theme_changer',
+      icon: Icons.color_lens_outlined),
+  
+  
 ];
